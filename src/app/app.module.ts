@@ -10,19 +10,23 @@ import { Scenario4Module } from './scenario4/scenario4.module';
 import { Scenario5Module } from './scenario5/scenario5.module';
 import { Scenario6Module } from './scenario6/scenario6.module';
 import { ScenarioService } from './scenario.service';
+import { Scenario7Module } from './scenario7/scenario7.module';
+
 @NgModule({
   declarations: [
     AppComponent,
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     Scenario1Module,
     Scenario2Module,
     Scenario3Module,
     Scenario4Module,
     Scenario5Module,
-    Scenario6Module
+    Scenario6Module,
+    Scenario7Module
   ],
   providers: [ScenarioService],
   bootstrap: [AppComponent]

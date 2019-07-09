@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Component1Component implements OnInit {
 
-  clicked(data) {
-    console.log(data);
+  clicked(something) {
+    console.log(something);
   }
   constructor() { }
 
